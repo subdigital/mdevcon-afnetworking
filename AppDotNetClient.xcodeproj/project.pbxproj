@@ -24,9 +24,10 @@
 		B54F08AA1631C27000E2598C /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F08A91631C27000E2598C /* TimelineViewController.m */; };
 		B54F08AE1631C28000E2598C /* AppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F08AD1631C28000E2598C /* AppDotNetAPIClient.m */; };
 		B54F08B11631C36600E2598C /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F08B01631C36600E2598C /* Post.m */; };
+		B56F589416F2FAD700FA5F0B /* default_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B56F589216F2FAD700FA5F0B /* default_avatar@2x.png */; };
+		B56F589516F2FAD700FA5F0B /* default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = B56F589316F2FAD700FA5F0B /* default_avatar.png */; };
 		B57A6F54163372CA00820427 /* cell-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B57A6F51163372CA00820427 /* cell-bg.png */; };
 		B57A6F55163372CA00820427 /* cell-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57A6F52163372CA00820427 /* cell-bg@2x.png */; };
-		B57A6F56163372CA00820427 /* default_avatar.gif in Resources */ = {isa = PBXBuildFile; fileRef = B57A6F53163372CA00820427 /* default_avatar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,9 +56,10 @@
 		B54F08AD1631C28000E2598C /* AppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDotNetAPIClient.m; sourceTree = "<group>"; };
 		B54F08AF1631C36600E2598C /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		B54F08B01631C36600E2598C /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		B56F589216F2FAD700FA5F0B /* default_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_avatar@2x.png"; sourceTree = "<group>"; };
+		B56F589316F2FAD700FA5F0B /* default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_avatar.png; sourceTree = "<group>"; };
 		B57A6F51163372CA00820427 /* cell-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-bg.png"; sourceTree = "<group>"; };
 		B57A6F52163372CA00820427 /* cell-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell-bg@2x.png"; sourceTree = "<group>"; };
-		B57A6F53163372CA00820427 /* default_avatar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = default_avatar.gif; sourceTree = "<group>"; };
 		D1AB6BF2E26F43348D1E6B21 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -141,9 +143,10 @@
 		B57A6F4F163372A500820427 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B56F589216F2FAD700FA5F0B /* default_avatar@2x.png */,
+				B56F589316F2FAD700FA5F0B /* default_avatar.png */,
 				B57A6F51163372CA00820427 /* cell-bg.png */,
 				B57A6F52163372CA00820427 /* cell-bg@2x.png */,
-				B57A6F53163372CA00820427 /* default_avatar.gif */,
 			);
 			name = Resources;
 			path = AppDotNetClient/Resources;
@@ -245,7 +248,8 @@
 				B534D7FD1633645F00920F82 /* PostCell.xib in Resources */,
 				B57A6F54163372CA00820427 /* cell-bg.png in Resources */,
 				B57A6F55163372CA00820427 /* cell-bg@2x.png in Resources */,
-				B57A6F56163372CA00820427 /* default_avatar.gif in Resources */,
+				B56F589416F2FAD700FA5F0B /* default_avatar@2x.png in Resources */,
+				B56F589516F2FAD700FA5F0B /* default_avatar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
